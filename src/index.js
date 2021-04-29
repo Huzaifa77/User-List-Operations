@@ -56,7 +56,7 @@ const domRender = (stateArr) => {
         </div>
         <div class="card-content">
           <p>
-          <b>Gender: </b> ${userObj.gender}<br/>
+          <b>Gender: </b>${userObj.gender}<br/>
           
           </p>
         </div>
