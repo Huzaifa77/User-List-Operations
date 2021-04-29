@@ -1,0 +1,83 @@
+#app {
+  width: auto;
+  height: auto;
+  background-image: linear-gradient(
+    175deg,
+    #f2ffff 0,
+    #d8ffff 16.67%,
+    #b7f6fb 33.33%,
+    #8fdee8 50%,
+    #63c6d6 66.67%,
+    #36b2c9 83.33%,
+    #00a2c0 100%
+  );
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 40px;
+  margin: auto;
+}
+
+.nav-wrapper {
+  background-image: linear-gradient(
+    110deg,
+    #ffe5c5 0,
+    #ffddbe 12.5%,
+    #fed0b2 25%,
+    #f4bfa2 37.5%,
+    #e8a98f 50%,
+    #db937d 62.5%,
+    #d28272 75%,
+    #cb756c 87.5%,
+    #c76c6b 100%
+  );
+}
+
+#nav-mobile {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #ffffff00;
+}
+
+#user-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  position: relative;
+  background-image: linear-gradient(
+    175deg,
+    #f3ffff 0,
+    #8fb0e8 50%,
+    #0065af 100%
+  );
+  width: 300px;
+  border-radius: 20px;
+  transition: width 0.1s;
+}
+
+.card:hover {
+  width: 320px;
+}
+
+.card-title {
+  background-color: rgba(146, 94, 94, 0.404);
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+
+.card-image {
+  border-radius: 20px;
+}
+
+.card-link {
+  /* background-color: #8ae3f3; */
+}
