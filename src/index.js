@@ -10,13 +10,12 @@ const searchInput = document.getElementById("search");
 const appState = [];
 
 class User {
-  constructor(title, firstname, lastname, gender, email, address, city, pic) {
+  constructor(title, firstname, lastname, gender, email, pic) {
     this.title = title;
     this.name = `${firstname} ${lastname}`;
     this.gender = gender;
     this.email = email;
-    this.address = address;
-    this.city = city;
+
     this.pic = pic;
   }
 }
@@ -38,8 +37,6 @@ addUser.addEventListener("click", async () => {
     user.name.last,
     user.gender,
     user.email,
-    user.location.street.name,
-    user.location.city,
     user.picture.large
   );
 
